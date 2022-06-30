@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/inputEmail.css">
+    <link rel="stylesheet" href="./CSS/button.css">
+    <link rel="icon" href="./Imagens/rocketicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Viralizei</title>
+</head>
+
+<body>
+    <div class="fixed-bottom text-end d-flex flex-row justify-content-end align-items-end"> 
+        <a class="position-relative d-flex flex-row justify-content-center align-items-end text-decoration-none suport">
+            <p class="fw-bold suportText">Nos chamem no Whatsapp</p><img src="./Imagens/wpp.png" class="iconWPP"> <span
+                class="position-absolute top-0 end-0 badge rounded-pill bg-secondary">+1</span>
+        </a>
+    </div>
+    <nav class="navbar navbar-expand-lg fixed-top  colorNav">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#serviços">
+                <img src="./Imagens/viraliza.png" class="Logo "></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-white" aria-current="page" href="#serviço">Inicio</a>
+                    <a class="nav-link text-white" href="#serviços">Serviços</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" id="inicio">
+            <div class="carousel-item active ">
+                <img src="./Imagens/index/FirstAnuncio.jpeg" class="d-block w-100 carrossel">
+                <div class="card mb-5 mx-auto carousel-caption border-0 d-md-block cardCour">
+                    <div class="card-header">
+                        <h5 class="colorText">Comprar Seguidores no Instagram! ⬆️ 📈 </h5>
+                    </div>
+                    <p class="card-text fw-bold colorText">Conquistar bons resultados no Instagram
+                        nem sempre é uma tarefa
+                        fácil,
+                        requer tempo e
+                        dedicação. Ao adquirir nossos serviços, você pode crescer de forma
+                        rápida e segura,
+                        aumentando seu
+                        engajamento! Tá esperando o que?</p>
+                    <button class="buttonCard">Comprar seguidores agora mesmo 🛒</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Imagens/index/vantagens.png" class="d-block w-100 carrossel">
+                <div class="card mb-5 mx-auto carousel-caption d-none d-md-block cardCour">
+                    <div class="card-body">
+                        <h5 class="card-title colorText">⭐ Vantagens em Comprar Seguidores
+                            Conosco ⭐</h5>
+                        <p class="card-text colorText">Confira algumas das vantagens em comprar
+                            seguidores em uns dos
+                            melhores sites e mais seguro na compra de seguidores</p>
+                        <button class="buttonCard">⭐ Vantagens ⭐ </button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Imagens/index/duvidas-frequentes.png" class="d-block w-100 carrossel">
+                <div class="card mb-5 mx-auto carousel-caption d-none d-md-block cardCour">
+                    <div class="card-body">
+                        <h5 class="card-title colorText">🤔Dúvidas Frequentes🤔</h5>
+                        <p class="card-text colorText">Sane todas suas dúvidas clicando aqui.
+                        </p>
+                        <button class="buttonCard" onclick="window.location.href = '#DuvidasFrequentes'"> ➡️Dúvidas
+                            Frequentes⬅️</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Imagens/index/TesteGratis.jpeg" class="d-block w-100 carrossel">
+                <div class="card mb-5 mx-auto carousel-caption d-none d-md-block cardCour">
+                    <div class="card-body">
+                        <h5 class="card-title colorText">Teste Gratuito!</h5>
+                        <p class="card-text colorText">Ainda está com receio de adquirir um de
+                            nossos produtos? 😞 Tudo
+                            bem... Nós te entedemos, por isso estamos te oferecendo um teste
+                            gratuito!!! Precisamos que
+                            você entre em contato conosco em um de nossos meios de comunicação
+                            para garantir seu teste.
+                        </p>
+                        <button class="buttonCard"> S.A.C 💌</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div>
+        <img src="./Imagens/index/bannerInformativo.jpeg" class="w-100">
+    </div>
+    <section id="serviços">
+
+        <div class="container">
+            <h2 class="fw-bold m-5 mx-5 ms-5 TituleService">Serviços</h2>
+            <div class="row justify-content-around">
+                <div class="card border border-dark col-3 CardService">
+                    <img src="./Imagens/index/world.png" class="card-img-top w-100 ImgCardService">
+                    <div class="card-body">
+                        <button class=" bottom-0 start-50 translate-middle-x buttonCard">Seguidores do Mundo
+                            Todo</button>
+                    </div>
+                </div>
+                <div class="card border border-dark col-3 CardService">
+                    <img src="./Imagens/index/brazil.png" class="card-img-top w-100 ImgCardService">
+                    <div class="card-body">
+                        <button class="bottom-0 start-50 translate-middle-x buttonCard">Seguidores do Brasil</button>
+                    </div>
+                </div>
+                <div class="card border border-dark col-3 CardService">
+                    <img src="./Imagens/index/Premium-PNG-File.png" class="card-img-top ImgCardService">
+                    <div class="card-body">
+                        <button class="bottom-0 start-50 translate-middle-x buttonCard">Premium</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Engajamento">
+        <div class="container">
+            <h2 class="fw-bold m-5 mx-5 ms-5 TituleService">9 DICAS PARA MELHORAR SEU ENGAJAMENTO!</h2>
+            <a id="youtube" href="iframe"><img
+                    src="https://cdn.shopify.com/s/files/1/0619/8640/6595/files/facebook-notification-gift-in-stocking.jpg?v=1655812203&width=1100"
+                    class="border border-dark"> </a>
+            <iframe class="m-5 Youtube" src="https://www.youtube-nocookie.com/embed/OB-8hp0__2s"
+                title="YouTube video player" frameborder="0" aling="middle"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="container">
+        <a class="text-decoration-none colorText" href="./HTML/tabelaPrecos.html">
+            <div class="card border border-dark tabelaPreco">
+                <img src="./Imagens/tabelaPrecos.jpeg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Tabela comparativa</h3>
+                    <p class="card-text text-center">Veja que a Viralizei tem o melhor preço de mercado</p>
+                </div>
+            </div>
+        </a>
+    </section>
+    <section id="DuvidasFrequentes" class="m-5 pt-5">
+        <article class=" fst-italic container">
+            <div class="text-center">
+                <h2>🤔Dúvidas Frequentes🤔</h2>
+                <img src="./Imagens/index/duvidas-frequentes.png" class=" ImgDuvidas">
+            </div>
+            <div class="TextDuvidas">
+                <h5>
+                    Qual o prazo de entrega dos seguidores?
+                </h5>
+                <ul>
+                    <li>
+                        Pacotes menores de seguidores são entregues rápido e automático, pacote maiores pode demorar até
+                        03
+                        horas para começar entregar no seu perfil.
+                    </li>
+                </ul>
+                <h5>É seguro comprar seguidores?</h5>
+                <ul>
+                    <li>Sim 100% seguro nenhum risco para seu perfil.</li>
+                </ul>
+                <h5>Minha conta pode sofrer alguma penalização?</h5>
+                <ul>
+                    <li>Isso seria impossível, seguimos todas as regras de mídia social, para que você possa ter a
+                        melhor
+                        experiência.</li>
+                </ul>
+                <h5>Tem sigilo?</h5>
+                <ul>
+                    <li> os seguidores conosco você conta com total sigilo sua informações estão protegidas.</li>
+                </ul>
+                <h5>Não precisa da senha?</h5>
+                <ul>
+                    <li>ão precisa enviar a senha do seu Instagram somente o @ ou o link do perfil para compra de
+                        seguidores,
+                        visualizações em storys e alcance no instagram (visitas e impressões) e o link da publicação
+                        para
+                        demais
+                        serviços.</li>
+                </ul>
+                <h5>Como eu pego o link do meu perfil?</h5>
+
+                <ul>
+                    <li>É muito fácil, siga os passos:
+
+                        <ol>
+                            <li>Toque na lupa, localizada no menu inferior;</li>
+                            <li>Busque o nome do perfil na barra de pesquisa;</li>
+                            <li>No perfil desejado, toque no menu de três pontos, no canto superior direito;</li>
+                            <li>Toque em “Copiar URL do perfil”;</li>
+                        </ol>
+                    </li>
+                </ul>
+                <h5>Como eu pego o link de uma publicação?</h5>
+
+                <ul>
+                    <li> É muito fácil, siga os passos:
+                        <ol>
+                            <li>Abra o aplicativo do Instagram no celular. No feed, encontre a foto da qual deseja obter
+                                a
+                                URL e
+                                clique nos
+                                três pontinhos ao lado do nome do usuário que a postou.</li>
+                            <li>Nas opções que serão exibidas, clique em "copiar link" para copiá-lo para a área de
+                                transferência.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+            <h6 class="text-danger">Caso tenha mais alguma dúvida referente a compra de nossos serviços entre em contato
+                com nosso
+                suporte.</h6>
+        </article>
+    </section>
+    <footer class="text-center">
+        <div id='NomeObjetivo' class="footer">
+            <h5 class="text-white-50">
+                Viraliza.Net
+            </h5>
+            <h4>
+                Somos uma empresa de tecnologia e marketing digital com objetivo de aumentar sua credibilidade,
+                autoridade e
+                gerar oportunidades no mercado digital para você.
+            </h4>
+        </div>
+        <div id="Email" class="d-flex flex-column justify-content-center">
+            <h4 class="text-light">Seja o primeiro a saber de novos serviços e receber ofertas exclusivas.</h4>
+            <div class="form-control1">
+                <input type="value" required="">
+                <label>
+                    <span style="transition-delay:0ms">D</span><span style="transition-delay:50ms">i</span><span
+                        style="transition-delay:100ms">g</span><span style="transition-delay:150ms">i</span><span
+                        style="transition-delay:200ms">t</span><span style="transition-delay:250ms">e</span><span
+                        style="transition-delay:300ms"> </span><span style="transition-delay:350ms">s</span><span
+                        style="transition-delay:400ms">e</span><span style="transition-delay:450ms">u</span><span
+                        style="transition-delay:500ms"> </span><span style="transition-delay:550ms">e</span><span
+                        style="transition-delay:600ms">m</span><span style="transition-delay:650ms">a</span><span
+                        style="transition-delay:700ms">i</span><span style="transition-delay:750ms">l</span>
+                </label>
+            </div>
+        </div>
+        <div class="foo">
+            <div class="links">
+                <a id="Contatos">Contatos</a>
+                <a id="PoliticaPrivicidade">Politica de Privicidade</a>
+                <a id="TermosCondicoes">Termos de Condições</a>
+                <a id="DuvidasFrequentes">Duvidas frequentes</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./JS/events.js"></script>
+</body>
+
+</html>

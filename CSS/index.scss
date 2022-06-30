@@ -1,0 +1,103 @@
+    $colorprime: rgb(18, 45, 155);
+    $colorDuvidas: rgb(159, 153, 153);
+
+    .colorNav {
+        background-color: rgb(51, 83, 213);
+    }
+
+    .cardCour {
+        height: 20rem;
+        width: 25rem;
+    }
+
+    .colorText {
+        color: $colorprime;
+    }
+
+    .carrossel {
+        height: 50rem;
+    }
+
+    .CardService {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .ImgCardService {
+        width: 5rem;
+        height: 15rem;
+    }
+
+    .Logo {
+        height: 6rem;
+        width: 10rem;
+    }
+
+    .TituleService {
+        font-size: 44px;
+    }
+
+    .Youtube {
+        height: 35rem;
+        width: 64.5rem;
+        display: none;
+    }
+
+    .tabelaPreco {
+        width: 69rem;
+        margin-top: 8rem;
+    }
+
+    .ImgDuvidas {
+        width: 15rem;
+    }
+
+    .TextDuvidas {
+        color: $colorDuvidas;
+        font-size: 15px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20rem;
+        color: rgb(255, 255, 255);
+        background-color: rgb(18, 45, 155);
+    }
+
+    #Email {
+        background-color: rgb(51, 83, 213);
+    }
+
+    .foo {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 20rem;
+        color: rgb(255, 255, 255);
+        background-color: rgb(18, 45, 155);
+    }
+
+    .links {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .iconWPP {
+        height: 60px;
+        
+    }
+
+    .suportText {
+        color: rgb(0, 0, 0);
+        background-color: #fff;
+        border-radius: 10px;
+        -webkit-box-shadow: 5px 5px 15px 5px #000000;
+        box-shadow: 5px 5px 15px 5px #000000
+    }
